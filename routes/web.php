@@ -3,7 +3,7 @@
 use App\Http\Controllers\DataController;
 
 
-Route::get('/', [DataController::class, "getSlug"]);
+Route::get('/', [DataController::class, "data"]);
 
 
 

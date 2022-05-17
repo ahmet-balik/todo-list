@@ -6,7 +6,7 @@ use App\Models\TodoList;
 
 class DataController extends Controller
 {
-    public function getSlug()
+    public function data()
     {
         $estimatedDuration = TodoList::query()
             ->select("id", "name", "level", "estimatedDuration")
